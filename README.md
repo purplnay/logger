@@ -18,7 +18,7 @@ The documentation is available [here](https://purplnay.github.io/logger/logger.h
 const { log } = require('purpl-logger');
 
 log('My first log');
-log('My second log); // The most recent log will appear first in logs.txt
+log('My second log'); // The most recent log will appear first in logs.txt
 ```
 
 - Changing your log file (globally):
