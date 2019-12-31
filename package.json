@@ -8,7 +8,7 @@
   "author": "Nay <nay@purpltag.com>",
   "license": "MIT",
   "scripts": {
-    "docs": "jsdoc -R README.md index.js -d docs -t docdash",
+    "docs": "jsdoc -R README.md index.js -d docs -t node_modules/docdash",
     "test": "node test/index.js"
   },
   "devDependencies": {
