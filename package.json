@@ -2,6 +2,7 @@
   "name": "purpl-logger",
   "version": "1.0.1",
   "description": "Date and prepend logs to your log file(s) with a simple function.",
+  "keywords": ["logger", "logs", "purpl"],
   "main": "index.js",
   "types": "typings/index.d.ts",
   "repository": "https://github.com/purplnay/logger.git",
