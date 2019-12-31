@@ -1,7 +1,9 @@
 const fs = require('fs');
 
 /**
- * A module to date and prepend logs to log files.
+ * A logger that date and prepend logs to files.
+ * 
+ * @namespace
  */
 const logger = {
 
