@@ -4,7 +4,7 @@
   "description": "Date and prepend logs to your log file(s) with a simple function.",
   "main": "index.js",
   "types": "typings/index.d.ts",
-  "repository": "https://github.com/purplnay/purpl-logger.git",
+  "repository": "https://github.com/purplnay/logger.git",
   "author": "Nay <nay@purpltag.com>",
   "license": "MIT",
   "scripts": {
