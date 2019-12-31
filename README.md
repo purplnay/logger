@@ -2,7 +2,7 @@
 
 Date and prepend logs to your log file(s) with a simple function.
 
-The documentation is available [here](https://purplnay.github.io/purpl-logger/index.html).
+The documentation is available [here](https://purplnay.github.io/purpl-logger/global.html#logger).
 
 ## Installation
 
