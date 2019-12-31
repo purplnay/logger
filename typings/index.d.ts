@@ -1,8 +1,5 @@
 declare module 'purpl-logger' {
-  /**
-  * A module to date and prepend logs to log files.
-  */
-  export default {
+  type Logger = {
     /**
      * The path to the file to add logs to.
      */
@@ -14,5 +11,12 @@ declare module 'purpl-logger' {
      * @param file The filepath where to log the message to.
      */
     log(message: string, file?: string): void
-  }
+  };
+
+  /**
+  * A logger that date and prepend logs to files.
+  */
+  const logger: Logger;
+
+  export default logger;
 }
