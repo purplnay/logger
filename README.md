@@ -1,6 +1,6 @@
 # Logger
 
-Date and prepend logs to your log file(s) with a simple function.
+Date and prepend/append logs to your log file(s) with a simple function.
 
 The documentation is available [here](https://purplnay.github.io/logger/logger.html).
 
