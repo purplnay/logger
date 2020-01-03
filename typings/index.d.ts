@@ -6,11 +6,18 @@ declare module 'purpl-logger' {
     path: string,
 
     /**
+     * Whether to prepend the new log or not.
+     */
+    prepend: boolean;
+
+    /**
      * Prepend logs to a file.
      * @param message The log message.
      * @param file The filepath where to log the message to.
+     * @param prepend Whether to prepend the new log or not.
+     * @return The full log message.
      */
-    log(message: string, file?: string): void
+    log(message: string, file?: string, prepend?: boolean): string
   };
 
   /**
