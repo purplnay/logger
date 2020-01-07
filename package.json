@@ -1,6 +1,6 @@
 {
   "name": "purpl-logger",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Date and prepend/append logs to your log file(s) with a simple function.",
   "keywords": [
     "logger",

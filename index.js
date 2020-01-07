@@ -47,7 +47,7 @@ const logger = {
 
     const now = new Date().toLocaleString();
     const newLog = `${now}          ${message}`;
-    const newLogs = prepend ? `${newLog}\n${oldLogs}` : `${oldLogs}\n${newLog}`;
+    const newLogs = prepend ? `${newLog}\n${oldLogs}` : `${oldLogs}${newLog}\n`;
 
     fs.writeFileSync(logFile, newLogs, 'utf8');
 
