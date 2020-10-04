@@ -32,7 +32,7 @@ declare module 'purpl-logger' {
     /**
      * Whether to prepend the new log or not.
      */
-    prepend: string,
+    prepend: boolean,
 
     /**
      * Prepend logs to a file.
